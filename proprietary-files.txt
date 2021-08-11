@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from OnePlus9ProOxygen_22.E.10_OTA_0100_all_2106092126_ca19638c4207e
+# All unpinned blobs below are extracted from OnePlus9ProOxygen_22.I.11_GLO_0110_2107082121
 
 # ACDB
 odm/etc/acdbdata/acdb_version
