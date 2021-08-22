@@ -1,0 +1,3 @@
+[submodule "GCam"]
+	path = GCam
+	url = https://gitlab.com/oddlyspaced/lemonadep_gcam
