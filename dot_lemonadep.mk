@@ -23,22 +23,23 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/lemonadep/device.mk)
 
 # Inherit some common Evolution X stuff.
-$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
+$(call inherit-product, vendor/dot/config/common.mk)
 
-EVO_BUILD_TYPE := OFFICIAL
+WITH_GAPPS := true
+DOT_OFFICIAL := false
 EXTRA_FOD_ANIMATIONS := true
 TARGET_BOOT_ANIMATION_RES := 1440
 
-PRODUCT_NAME := evolution_lemonadep
+PRODUCT_NAME := dot_lemonadep
 PRODUCT_DEVICE := lemonadep
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
-PRODUCT_MODEL := LE2121
+PRODUCT_MODEL := LE2123
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE=OnePlus9Pro \
-    PRODUCT_NAME=OnePlus9Pro_IND
+    PRODUCT_NAME=OnePlus9Pro
 
-BUILD_FINGERPRINT := OnePlus/OnePlus9Pro_IND/OnePlus9Pro:11/RKQ1.201105.002/2107082110:user/release-keys
+BUILD_FINGERPRINT := OnePlus/OnePlus9Pro/OnePlus9Pro:11/RKQ1.201105.002/2107082110:user/release-keys

@@ -16,9 +16,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_lemonadep.mk
+    $(LOCAL_DIR)/dot_lemonadep.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_lemonadep-user \
-    evolution_lemonadep-userdebug \
-    evolution_lemonadep-eng
+    dot_lemonadep-user \
+    dot_lemonadep-userdebug \
+    dot_lemonadep-eng

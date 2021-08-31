@@ -1,8 +1,0 @@
-[
-  {
-    "remote"      : "github",
-    "repository"  : "EvolutionX-lemonadep/sm8350-common",
-    "branch"	  : "elle",
-    "target_path" : "device/oneplus/sm8350-common"
-  }
-]
